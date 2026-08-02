@@ -24,7 +24,6 @@ ExecStart=/usr/local/bin/chassis-monitor
 Restart=always
 RestartSec=3
 User=root
-DeviceAllow=/dev/cros_ec rw
 
 [Install]
 WantedBy=multi-user.target
